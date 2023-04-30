@@ -19,12 +19,12 @@ install_wonderwords_module()
 from wonderwords import RandomWord
 
 
-def open_edge_browser():
+def open_edge_browser(): #The function opens the edge browser.
     edge_path = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
     webbrowser.register("edge", None, webbrowser.BackgroundBrowser(edge_path))
 
 
-def perform_search():
+def perform_search(): #This opens a new tab and does a random word search.
 
     open_edge_browser()
     
