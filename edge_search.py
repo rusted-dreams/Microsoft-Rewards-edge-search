@@ -30,7 +30,7 @@ def perform_search(): #This opens a new tab and does a random word search.
     
     for i in range(10):
         search_term = RandomWord().word()
-        time.sleep(3)
+        time.sleep(2)
         url = f"https://www.bing.com/search?q={search_term}"
         webbrowser.get("edge").open_new_tab(url)
 
