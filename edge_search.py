@@ -19,7 +19,6 @@ install_wonderwords_module()
 from wonderwords import RandomWord
 
 
-
 def open_edge_browser():
     edge_path = r"C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe"
     webbrowser.register("edge", None, webbrowser.BackgroundBrowser(edge_path))
