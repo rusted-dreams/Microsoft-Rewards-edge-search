@@ -28,7 +28,7 @@ def perform_search(): #This opens a new tab and does a random word search.
 
     open_edge_browser()
     
-    for i in range(10):
+    for i in range(3):
         search_term = RandomWord().word() #generates a random word to search for.
         time.sleep(2)  #waits 2 sec before opening a new tab to allow the search to happen first.
         url = f"https://www.bing.com/search?q={search_term}"

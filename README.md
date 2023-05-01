@@ -1,12 +1,12 @@
 # Automatic Edge search for Microsoft Rewards
 
-- This is a simple python script that automatically performs the 90 searches in edge browser as required to get all the daily search points.
+- This is a simple python script that automatically performs the 30 searches in edge browser as required to get all the daily search points.
 
-- This can come in handy if you do not use microsoft edge as your default browser for whatever reason you have just like me or you do not use the internet enough to complete 90 searches.
+- This can come in handy if you do not use microsoft edge as your default browser for whatever reason you have just like me or you do not use the internet enough to complete 30 searches.
 
 > But do keep in mind that this will take some time to complete. So you need to have some patience.
 
-- This will take approx 5 minutes to complete all the 90 searches.
+- This will take approx 2 minutes to complete all the 30 searches.
 
 ## Running the Script
 
