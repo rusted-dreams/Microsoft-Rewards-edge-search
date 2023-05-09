@@ -3,7 +3,6 @@ import time
 import os
 import importlib
 import subprocess
-import sys
 
 
 def install_wonderwords_module():  # if the wonderwords is not installed then this function installs it.
@@ -37,5 +36,5 @@ def perform_search(): #This opens a new tab and does a random word search.
     os.system("taskkill /f /im msedge.exe") #Closes the browser for after 10 searches/tabs.
 
 
-for i in range(3):
+for i in range(4):
     perform_search()
