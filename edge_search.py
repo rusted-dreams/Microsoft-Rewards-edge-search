@@ -3,6 +3,7 @@ import time
 import os
 import importlib
 import subprocess
+import sys
 
 
 def install_wonderwords_module():  # if the wonderwords is not installed then this function installs it.
