@@ -14,6 +14,6 @@
 - then you just need to run this edge_search.py file and then wait and watch.
 - The script automatically closes edge after performing 10 searches and then re-opens, this is done so that a pc with low RAM does not crash because of opening 90 tabs at a time.
 
-> - **If at any point of time want to close the script just go to the terminal and hit the `ctrl+c` key. This will force kill the script.**
+> - **If at any point of time want to close the script just go to the terminal and hit the `ctrl+c` key. This will force kill the script.** or **simply close vs code**.
 
 If you have any doubts or suggestions fell free to share.
